@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  font-family: 'Cinzel', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 100vh;
+  padding: 50px;
+  background: {
+    image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)) , url(../img/dune-bg.jpeg);
+    color: black;
+    size: cover;
+    repeat: no-repeat;
+  }
+}
+
+header {
+  display: flex;
+  flex-direction: column-reverse;
+  align-self: flex-end;
+  h1{
+    font-size: 5rem;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  font-size: 2rem;
+}
+
+.frank {
+  font-size: 2.2rem;
+}
